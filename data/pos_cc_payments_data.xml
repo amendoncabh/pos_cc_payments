@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="pos_sale_journal" model="account.journal">
+            <field name="name">Credit Card</field>
+            <field name="code">CC</field>
+            <field name="type">bank</field>
+            <field name="journal_user">true</field>
+        </record>
+    </data>
+</odoo>
